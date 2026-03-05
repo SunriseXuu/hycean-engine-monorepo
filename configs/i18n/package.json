@@ -1,16 +1,16 @@
 {
-	"name": "@hycean-engine/i18n",
-	"version": "0.0.0",
-	"private": true,
-	"exports": {
-		".": "./src/index.ts"
-	},
-	"scripts": {
-		"lint": "biome lint --write .",
-		"check-types": "tsc --noEmit"
-	},
-	"devDependencies": {
-		"@hycean-engine/typescript": "workspace:*",
-		"typescript": "5.9.2"
-	}
+  "name": "@hycean-engine/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "biome check --write .",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@hycean-engine/typescript": "workspace:*",
+    "typescript": "5.9.2"
+  }
 }

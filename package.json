@@ -10,8 +10,7 @@
     "check-types:web": "turbo run check-types --filter=web-next",
     "dev": "turbo run dev",
     "dev:web": "turbo run dev --filter=web-next",
-    "lint": "biome lint --write .",
-    "format": "biome format --write .",
+    "lint": "biome check --write .",
     "prepare": "husky"
   },
   "keywords": [],
