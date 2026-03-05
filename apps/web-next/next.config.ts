@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   },
   // 解析 monorepo 中的包
   transpilePackages: [
+    "@hycean-engine/engine",
     // "@hycean-engine/ui",
     // "@hycean-engine/api",
     // "@hycean-engine/store",

@@ -16,7 +16,9 @@
     "plugins": [{ "name": "next" }],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@hycean-engine/engine/*": ["../../packages/engine/src/*"],
+      "@hycean-engine/engine": ["../../packages/engine/src"]
       // "@hycean-engine/ui/*": ["../../packages/ui/src/*"],
       // "@hycean-engine/ui": ["../../packages/ui/src"]
     }

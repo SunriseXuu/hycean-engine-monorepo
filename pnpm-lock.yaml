@@ -20,6 +20,9 @@ importers:
 
   apps/web-next:
     dependencies:
+      '@hycean-engine/engine':
+        specifier: workspace:*
+        version: link:../../packages/engine
       next:
         specifier: 16.1.6
         version: 16.1.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -78,6 +81,8 @@ importers:
         version: 4.2.1
 
   configs/typescript: {}
+
+  packages/engine: {}
 
 packages:
 
