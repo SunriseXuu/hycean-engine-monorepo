@@ -1,8 +1,11 @@
 {
   "name": "hycean-engine-monorepo",
+  "description": "Hycean Engine is a next-generation, highly performant 3D editor and rendering engine built for the modern web.",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "SunriseX",
+  "license": "AGPL-3.0-only",
+  "packageManager": "pnpm@10.22.0",
+  "private": true,
   "scripts": {
     "build": "turbo run build",
     "build:web": "turbo run build --filter=web-next",
@@ -13,10 +16,6 @@
     "lint": "biome check --write .",
     "prepare": "husky"
   },
-  "keywords": [],
-  "author": "SunriseX",
-  "license": "ISC",
-  "packageManager": "pnpm@10.22.0",
   "devDependencies": {
     "@biomejs/biome": "^2.4.5",
     "husky": "^9.1.7",

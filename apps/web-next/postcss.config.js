@@ -1,3 +1,3 @@
-import { postcssConfig } from "@bovilife/tailwind/postcss";
+import { postcssConfig } from "@hycean-engine/tailwind/postcss";
 
 export default postcssConfig;

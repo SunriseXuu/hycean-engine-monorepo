@@ -188,3 +188,23 @@
   --tracking-wider: calc(var(--tracking-normal) + 0.05em);
   --tracking-widest: calc(var(--tracking-normal) + 0.1em);
 }
+
+/* 对input进行一些限制 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* 隐藏滚动条，兼容多种浏览器 */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* 对于 Chrome, Safari 和 Edge */
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* 对于 Internet Explorer 和旧版 Edge */
+  scrollbar-width: none; /* 对于 Firefox */
+}
