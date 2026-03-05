@@ -1,0 +1,10 @@
+{
+  "name": "@hycean-engine/engine",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "pkg/engine.js",
+  "types": "pkg/engine.d.ts",
+  "scripts": {
+    "build": "wasm-pack build --target web --out-dir pkg"
+  }
+}

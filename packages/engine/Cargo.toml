@@ -1,0 +1,38 @@
+[package]
+name = "engine"
+description = "Hycean Engine - A next-generation, highly performant 3D editor and rendering engine built for the modern web."
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/SunriseXuu/hycean-engine-monorepo"
+license = "APGL-3.0-or-later"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+bevy = { version = "0.18.1", default-features = false, features = [
+    "bevy_asset",
+    "bevy_winit",
+    "bevy_core_pipeline",
+    "bevy_render",
+    "bevy_pbr",
+    "bevy_gltf",
+    "bevy_scene",
+    "webgpu",
+    "webgl2",
+] }
+console_error_panic_hook = "0.1.7"
+wasm-bindgen = "0.2.114"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 's'
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = "debuginfo"

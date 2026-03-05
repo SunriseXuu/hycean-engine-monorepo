@@ -12,7 +12,7 @@ Powered by **Rust**, **Bevy ECS**, and **WebGPU**, it delivers desktop-grade 3D 
 
 Hycean Engine uses a cutting-edge Monorepo architecture to cleanly separate the hardcore 3D rendering pipeline from the modern web UI:
 
-- **Core Engine (`packages/bevy-wasm`)**: A pure Rust/Bevy ECS core compiled to WebAssembly. Handles all matrix math, raycasting, and WebGPU rendering pipelines.
+- **Core Engine (`packages/engine`)**: A pure Rust/Bevy ECS core compiled to WebAssembly. Handles all matrix math, raycasting, and WebGPU rendering pipelines.
 - **Editor UI (`apps/web-next`)**: A Next.js application that provides a buttery-smooth, Figma-like interface to interact with the 3D core.
 - **Desktop Ready (`apps/desktop-tauri`)**: *(Coming soon)* Native desktop client wrapped with Tauri for zero-latency local asset management.
 
