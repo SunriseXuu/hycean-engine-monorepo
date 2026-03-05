@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "氦閃引擎",
-    "description": "氦閃引擎 - 地表最強的Web端3D引擎"
+    "description": "氦閃引擎 - 基於 Rust 和 WebGPU 构建的次世代高性能 3D 编辑器与渲染底座"
   },
   "theme": {
     "light": "淺色主題",
