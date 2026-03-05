@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "title": "Hycean Engine",
+    "description": "Hycean Engine - The most powerful Web3D engine on the planet"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

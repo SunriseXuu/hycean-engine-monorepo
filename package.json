@@ -1,0 +1,23 @@
+{
+  "name": "hycean-engine-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "build:web": "turbo run build --filter=web-next",
+    "check-types": "turbo run check-types",
+    "check-types:web": "turbo run check-types --filter=web-next",
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=web-next",
+    "lint": "biome lint --write .",
+    "format": "biome format --write ."
+  },
+  "keywords": [],
+  "author": "SunriseX",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.5"
+  }
+}

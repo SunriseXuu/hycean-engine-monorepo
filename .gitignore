@@ -1,0 +1,34 @@
+# 1. 包管理器与 Node.js 垃圾
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# 2. Turborepo 缓存
+.turbo/
+
+# 3. Next.js 宿主端
+.next/
+out/
+build/
+.env*.local
+.env
+
+# 4. Rust 与 Bevy 引擎端
+**/target/
+**/pkg/
+
+# 5. Tauri 桌面端
+src-tauri/target/
+
+# 6. 操作系统与编辑器缓存
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

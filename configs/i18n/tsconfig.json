@@ -1,0 +1,13 @@
+{
+  "extends": "@hycean-engine/typescript/base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "baseUrl": "."
+  },
+  "include": [
+    "src"
+  ]
+}

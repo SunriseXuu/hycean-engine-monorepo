@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "title": "氦闪引擎",
+    "description": "氦闪引擎 - 地表最强的Web端3D引擎"
+  },
+  "theme": {
+    "light": "浅色主题",
+    "dark": "深色主题",
+    "system": "跟随系统"
+  }
+}
