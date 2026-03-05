@@ -94,10 +94,6 @@
   --sidebar-accent-foreground: oklch(0.9067 0 0);
   --sidebar-border: oklch(0.3251 0.0176 285.3806);
   --sidebar-ring: oklch(0.709 0.1592 293.5412);
-  --sidebar-accent: oklch(0.2875 0.0109 285.6968);
-  --sidebar-accent-foreground: oklch(0.9067 0 0);
-  --sidebar-border: oklch(0.3251 0.0176 285.3806);
-  --sidebar-ring: oklch(0.709 0.1592 293.5412);
   --font-sans:
     "Montserrat", "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --font-serif: "Lora", serif;
