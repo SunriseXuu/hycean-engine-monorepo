@@ -1,0 +1,26 @@
+{
+  "name": "web-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "check-types": "next typegen && tsc --noEmit",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check --write ."
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@hycean-engine/tailwind": "workspace:*",
+    "@hycean-engine/typescript": "workspace:*",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

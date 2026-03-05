@@ -7,7 +7,5 @@
     "resolveJsonModule": true,
     "baseUrl": "."
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
