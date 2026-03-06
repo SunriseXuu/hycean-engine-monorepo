@@ -1,3 +1,6 @@
+pub mod editor_systems;
+pub mod event_bus;
+
 use bevy::prelude::*;
 use wasm_bindgen::prelude::*;
 
@@ -18,6 +21,11 @@ pub fn run_engine_core() {
             }),
             ..default()
         }))
+        // Add our custom plugins
+        .add_plugins((
+            event_bus::EventBusPlugin,
+            editor_systems::EditorSystemsPlugin,
+        ))
         // Setup a minimal test scene
         .add_systems(Startup, setup_scene)
         .run();
